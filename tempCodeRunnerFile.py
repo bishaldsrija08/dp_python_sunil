@@ -1,1 +1,0 @@
-print("Bishal" + " Rijal")
