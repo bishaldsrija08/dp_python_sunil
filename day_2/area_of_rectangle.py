@@ -15,4 +15,5 @@ length = int(input("Enter length: ")) # length = 5
 breadth = int(input("Enter breadth: ")) # breadth = 10
 
 area = length * breadth
-print("Area of rectangle is: ", area)
+# print("Area of rectangle is: ", area)
+print(f"Area of rectangle is: {area}")

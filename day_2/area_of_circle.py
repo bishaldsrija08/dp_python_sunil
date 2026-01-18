@@ -8,4 +8,5 @@ print("Area of the circle is:", area)"""
 radius = input("Enter the radius of the circle: ")  # radius = "4"
 radius = float(radius)
 area = math.pi * radius **2
-print("Area of the circle is:", area)
+# print("Area of the circle is:", area)
+print(f"Area of the circle is: {area}")
