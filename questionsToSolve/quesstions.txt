@@ -1,4 +1,4 @@
 WAP to add two numbers taking input from the user.
-WAP to check whether a candidate is eligible to vote or not.
+WAP to check whether a candidate is eligible to vote or not. [age>=18]
 WAP to take marks of three subjects and calculate total marks and percentage.
 WAP to find simple interest.
