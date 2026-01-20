@@ -5,3 +5,5 @@ candidate = input("Enter the candidate you want to vote for: ")
 if candidate == "Balen":
     print("Vote for Balen is necessary.")
     print("You have voted for Balen.")
+else:
+    print("You have not voted for Balen.")

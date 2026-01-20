@@ -3,3 +3,7 @@
 age = int(input("Enter your age: "))
 if age>=16:
     print("You are eligible for citizenship.")
+    print("Congratulations!")
+else:
+    print("You are not eligible for citizenship.")
+    print("Sorry!")
