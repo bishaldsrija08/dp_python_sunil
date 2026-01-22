@@ -1,7 +1,8 @@
-# WAP to print factorial of a given number using for loop
-num = int(input("Enter a number to find its factorial: "))
-# 5! = 5x4x3x2x1=120
-fact = 1
-for i in range(1, num+1, 1):
-    fact = fact * i
-print(f"Factorial of {num} is: {fact}")
+
+# WAP to print sum of first 10 natural numbers using for loop
+# 1+2+3+4+5+6+7+8+9+10 = 55
+sum = 0
+for i in range(1, 11, 1):
+    print(i, end = " ")
+    sum = sum + i
+print("\nSum of first 10 natural numbers is:", sum)
