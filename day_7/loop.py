@@ -12,7 +12,7 @@ for i in range(1, 6, 1):
 
 # WAP to print numbers from 1 to 10 using for loop
 for i in range(1, 11, 1):
-    print(i)
+    print(i, end = " ")
 
 # WAP to print 10 to 1 using for loop
 for i in range(10, 0, -1):
@@ -30,8 +30,8 @@ for i in range(1, 20, 2):
 # 1+2+3+4+5+6+7+8+9+10 = 55
 sum = 0
 for i in range(1, 11, 1):
-    print(i, end = " ")
     sum = sum + i
+    print(i, end = " ")
 print("\nSum of first 10 natural numbers is:", sum)
 
 # WAP to print multiplication table of a given number using for loop
@@ -52,7 +52,8 @@ print(f"Factorial of {num} is: {fact}")
 # Questios to practice:
 # 1. WAP to print all the multiples of 3 from 1 to 100 using for loop
 # 2. WAP to print the sum of all even numbers from 1 to 50 using for loop
-# 3. WAP to print the reverse of a given number using for loop
+# 3. WAP to print the reverse of a given number using for loop and check whether it is a palindrome or not.
 # 4. WAP to print the Fibonacci series up to n terms using for loop [0 1 1 2 3 5 8 13.....]
 # 5. WAP to check if a given number is prime or not using for loop
 # 6. WAP to print the sum of all odd numbers from 1 to 50 using for loop
+# 7. WAP to check whether a given number is armstrong number or not.
